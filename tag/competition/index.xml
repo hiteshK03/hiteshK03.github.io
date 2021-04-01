@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>competition | Hitesh Kandala</title>
+    <link>https://hiteshK03.github.io/tag/competition/</link>
+      <atom:link href="https://hiteshK03.github.io/tag/competition/index.xml" rel="self" type="application/rss+xml" />
+    <description>competition</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Mon, 04 Feb 2019 19:14:53 +0530</lastBuildDate>
+    <image>
+      <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
+      <title>competition</title>
+      <link>https://hiteshK03.github.io/tag/competition/</link>
+    </image>
+    
+    <item>
+      <title>ASME SDC 2019</title>
+      <link>https://hiteshK03.github.io/project/asme/</link>
+      <pubDate>Mon, 04 Feb 2019 19:14:53 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/asme/</guid>
+      <description>&lt;p&gt;In my freshmen year, I was recruited in the tech team &lt;a href=&#34;https://www.umiciitb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unmesh Mashruwala Innovation Cell&lt;/a&gt; along with 10 other freshmen and our first project was the competition &lt;a href=&#34;https://www.umiciitb.com/competitions/ASME&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Student Design Challenge&amp;rdquo;&lt;/a&gt; organised every year by American Society of Mechanical Engineers (ASME).&lt;/p&gt;
+&lt;p&gt;The competition required us to build a remote controlled bot of maximum dimensions 50x50, capable of picking, storing and placing balls of sizes ranging from table-tennis balls to as large as basket balls.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&#34;deepu_bot.jpg&#34;&gt;&lt;img src=&#34;deepu_bot.jpg&#34;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Our bot, which we named &#34;Deepu&#34;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;learnings&#34;&gt;My Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Programmed Roboteq to control the encoder-geared DC motors used to rotate the mechanum wheels.&lt;/li&gt;
+&lt;li&gt;Programmed arduino to simultaneously control a stepper and 2 servo motors.&lt;/li&gt;
+&lt;li&gt;Controlled the whole bot using transmitter during testing phase to improve speed and accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- &lt;p&gt;The code used for the competition is available 
+&lt;a href=&#34;https://github.com/hiteshK03/ASME-SDC-Competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+ --&gt;&lt;h3 id=&#34;learnings&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;After working hard for 3 months, we flew to Vellore for the Aisa-Pacific Regionals to compete with 20 other colleges from all over Asia. After 3 days of planning strategies and sleepless nights, we finally emerged as the Overall Winners of the Asia-Pacific Regionals. With this we qualified to represent India at the World Finals at Utah, USA in Nov 2019.&lt;/p&gt;
+&lt;p&gt;Some posts on our victory can be found
+&lt;a href=&#34;http://www.iitb.ac.in/en/breaking-news/umic-iit-bombay-wins-asme-sdc-asia-pacific-2019#:~:text=A%20team%20of%2014%20BTech,of%20Mechanical%20Engineering%20(ASME).&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&#34;asme.jpg&#34;&gt;&lt;img src=&#34;asme.jpg&#34;&gt;&lt;/a&gt;
+	&lt;figcaption&gt;The winning team with the judges and our bot &#34;Deepu&#34;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
