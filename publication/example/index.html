@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161725601-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-161725601-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -855,9 +894,7 @@
 
 
   
-  <a class="btn btn-outline-primary btn-page-header" href="/project/example/">
-    Project
-  </a>
+    
   
 
 
@@ -977,19 +1014,6 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hiteshK03.github.io/publication/example/&amp;t=An%20example%20conference%20paper" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
         <a href="mailto:?subject=An%20example%20conference%20paper&amp;body=https://hiteshK03.github.io/publication/example/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
@@ -1005,32 +1029,6 @@
       <li>
         <a href="https://www.linkedin.com/shareArticle?url=https://hiteshK03.github.io/publication/example/&amp;title=An%20example%20conference%20paper" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=An%20example%20conference%20paper%20https://hiteshK03.github.io/publication/example/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hiteshK03.github.io/publication/example/&amp;title=An%20example%20conference%20paper" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
         </a>
       </li>
     

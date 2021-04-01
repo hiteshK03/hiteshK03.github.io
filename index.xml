@@ -110,6 +110,28 @@
     </item>
     
     <item>
+      <title>Self Driving Car (SeDriCa)</title>
+      <link>https://hiteshK03.github.io/project/sedrica/</link>
+      <pubDate>Wed, 01 Apr 2020 19:52:21 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/sedrica/</guid>
+      <description>&lt;p&gt;I was a part of &lt;a href=&#34;https://www.umiciitb.com/competitions/SeDriCa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Team SeDriCa&lt;/a&gt; consisting of around 20 members. We were one of the 11 finalists among 289 teams competing in the Mahindra RISE Driverless Car Challenge to build India&#39;s first self driving car targeting the level 5 autonomy and received a Mahindra E2O for development of the same.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&#34;sedrica.jpg&#34;&gt;&lt;img src=&#34;sedrica.jpg&#34;&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Our Mahindra E2O (SeDriCa)&lt;/figcaption&gt;
+&lt;/figure&gt;
+      &lt;p&gt;In my initial months, I was mainly understanding and implementing models in the computer vision subsytem, training Traffic Sign and Traffic Light classifier based on Resnet-50 and Resnet-152 architectures.&lt;/p&gt;
+      &lt;p&gt;I, then switched to handle Path Planning and Decision Making subsytem as CV modules were giving decent results. I went for on-ground testing of the vehicle (in the campus) and optimized the path of the vehicle accounting for the location and information of obstacles and traffic signals using Robot Operating System (ROS).&lt;/p&gt;
+      &lt;p&gt;One of my major contribution in this subsytem was implementing RRT* algorithm and integrating with other modules through ROS, to improve the speed and accuracy of finding path which was previously using Hybrid-A*.&lt;/p&gt;
+&lt;p&gt;Our self driving car intro and in news
+&lt;a href=&#34;https://www.youtube.com/watch?v=8lNKjX0-RKY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&#34;sedrica_team.jpg&#34;&gt;&lt;img src=&#34;sedrica_team.jpg&#34;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Our senior team members, last Christmas Eve&#39;19&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Slides</title>
       <link>https://hiteshK03.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -241,10 +263,10 @@ Three
     <item>
       <title>ASME SDC 2019</title>
       <link>https://hiteshK03.github.io/project/asme/</link>
-      <pubDate>Mon, 04 Feb 2019 19:14:53 +0530</pubDate>
+      <pubDate>Mon, 04 Feb 2019 19:55:58 +0530</pubDate>
       <guid>https://hiteshK03.github.io/project/asme/</guid>
-      <description>&lt;p&gt;In my freshmen year, I was recruited in the tech team &lt;a href=&#34;https://www.umiciitb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unmesh Mashruwala Innovation Cell&lt;/a&gt; along with 10 other freshmen and our first project was the competition &lt;a href=&#34;https://www.umiciitb.com/competitions/ASME&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Student Design Challenge&amp;rdquo;&lt;/a&gt; organised every year by American Society of Mechanical Engineers (ASME).&lt;/p&gt;
-&lt;p&gt;The competition required us to build a remote controlled bot of maximum dimensions 50x50, capable of picking, storing and placing balls of sizes ranging from table-tennis balls to as large as basket balls.&lt;/p&gt;
+      <description>&lt;p&gt;In my freshmen year, I was recruited in the tech team &lt;a href=&#34;https://www.umiciitb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unmesh Mashruwala Innovation Cell&lt;/a&gt; along with 10 other freshmen and our first project was the competition &lt;a href=&#34;https://www.umiciitb.com/competitions/ASME&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#34;Student Design Challenge&#34;&lt;/a&gt; organised every year by American Society of Mechanical Engineers (ASME).
+The competition required us to build a remote controlled bot of maximum dimensions 50x50, capable of picking, storing and placing balls of sizes ranging from table-tennis balls to as large as basket balls.&lt;/p&gt;
 &lt;figure&gt;
   &lt;a href=&#34;deepu_bot.jpg&#34;&gt;&lt;img src=&#34;deepu_bot.jpg&#34;&gt;&lt;/a&gt;
   &lt;figcaption&gt;Our bot, which we named &#34;Deepu&#34;.&lt;/figcaption&gt;
@@ -255,9 +277,9 @@ Three
 &lt;li&gt;Programmed arduino to simultaneously control a stepper and 2 servo motors.&lt;/li&gt;
 &lt;li&gt;Controlled the whole bot using transmitter during testing phase to improve speed and accuracy.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- &lt;p&gt;The code used for the competition is available 
+&lt;p&gt;The code used for the competition is available 
 &lt;a href=&#34;https://github.com/hiteshK03/ASME-SDC-Competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
- --&gt;&lt;h3 id=&#34;learnings&#34;&gt;Results&lt;/h3&gt;
+&lt;h3 id=&#34;learnings&#34;&gt;Results&lt;/h3&gt;
 &lt;p&gt;After working hard for 3 months, we flew to Vellore for the Aisa-Pacific Regionals to compete with 20 other colleges from all over Asia. After 3 days of planning strategies and sleepless nights, we finally emerged as the Overall Winners of the Asia-Pacific Regionals. With this we qualified to represent India at the World Finals at Utah, USA in Nov 2019.&lt;/p&gt;
 &lt;p&gt;Some posts on our victory can be found
 &lt;a href=&#34;http://www.iitb.ac.in/en/breaking-news/umic-iit-bombay-wins-asme-sdc-asia-pacific-2019#:~:text=A%20team%20of%2014%20BTech,of%20Mechanical%20Engineering%20(ASME).&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
@@ -265,19 +287,6 @@ Three
 	&lt;a href=&#34;asme.jpg&#34;&gt;&lt;img src=&#34;asme.jpg&#34;&gt;&lt;/a&gt;
 	&lt;figcaption&gt;The winning team with the judges and our bot &#34;Deepu&#34;&lt;/figcaption&gt;
 &lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://hiteshK03.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://hiteshK03.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

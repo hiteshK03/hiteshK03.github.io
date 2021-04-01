@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161725601-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-161725601-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -297,10 +336,10 @@
     
       <meta
         property="article:published_time"
-        content="2019-02-04T19:14:53&#43;05:30"
+        content="2019-02-04T19:55:58&#43;05:30"
       />
     
-    <meta property="article:modified_time" content="2019-02-04T19:14:53&#43;05:30">
+    <meta property="article:modified_time" content="2019-02-04T19:55:58&#43;05:30">
   
 
   
@@ -330,8 +369,8 @@
     "https://hiteshK03.github.io/project/asme/featured.jpg"
   ],
   
-  "datePublished": "2019-02-04T19:14:53+05:30",
-  "dateModified": "2019-02-04T19:14:53+05:30",
+  "datePublished": "2019-02-04T19:55:58+05:30",
+  "dateModified": "2019-02-04T19:55:58+05:30",
   
   "author": {
     "@type": "Person",
@@ -764,16 +803,6 @@
 
   
   
-  
-  
-  <div>
-    
-
-  <span >
-      Hitesh Kandala</span>
-  </div>
-  
-  
 
   
   <span class="article-date">
@@ -856,8 +885,8 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>In my freshmen year, I was recruited in the tech team <a href="https://www.umiciitb.com" target="_blank" rel="noopener">Unmesh Mashruwala Innovation Cell</a> along with 10 other freshmen and our first project was the competition <a href="https://www.umiciitb.com/competitions/ASME" target="_blank" rel="noopener">&ldquo;Student Design Challenge&rdquo;</a> organised every year by American Society of Mechanical Engineers (ASME).</p>
-<p>The competition required us to build a remote controlled bot of maximum dimensions 50x50, capable of picking, storing and placing balls of sizes ranging from table-tennis balls to as large as basket balls.</p>
+      <p>In my freshmen year, I was recruited in the tech team <a href="https://www.umiciitb.com" target="_blank" rel="noopener">Unmesh Mashruwala Innovation Cell</a> along with 10 other freshmen and our first project was the competition <a href="https://www.umiciitb.com/competitions/ASME" target="_blank" rel="noopener">"Student Design Challenge"</a> organised every year by American Society of Mechanical Engineers (ASME).
+The competition required us to build a remote controlled bot of maximum dimensions 50x50, capable of picking, storing and placing balls of sizes ranging from table-tennis balls to as large as basket balls.</p>
 <figure>
   <a href="deepu_bot.jpg"><img src="deepu_bot.jpg"></a>
   <figcaption>Our bot, which we named "Deepu".</figcaption>
@@ -868,9 +897,9 @@
 <li>Programmed arduino to simultaneously control a stepper and 2 servo motors.</li>
 <li>Controlled the whole bot using transmitter during testing phase to improve speed and accuracy.</li>
 </ul>
-<!-- <p>The code used for the competition is available 
+<p>The code used for the competition is available 
 <a href="https://github.com/hiteshK03/ASME-SDC-Competition" target="_blank" rel="noopener">here</a></p>
- --><h3 id="learnings">Results</h3>
+<h3 id="learnings">Results</h3>
 <p>After working hard for 3 months, we flew to Vellore for the Aisa-Pacific Regionals to compete with 20 other colleges from all over Asia. After 3 days of planning strategies and sleepless nights, we finally emerged as the Overall Winners of the Asia-Pacific Regionals. With this we qualified to represent India at the World Finals at Utah, USA in Nov 2019.</p>
 <p>Some posts on our victory can be found
 <a href="http://www.iitb.ac.in/en/breaking-news/umic-iit-bombay-wins-asme-sdc-asia-pacific-2019#:~:text=A%20team%20of%2014%20BTech,of%20Mechanical%20Engineering%20(ASME)." target="_blank" rel="noopener">here</a></p>
@@ -922,19 +951,6 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hiteshK03.github.io/project/asme/&amp;t=ASME%20SDC%202019" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
         <a href="mailto:?subject=ASME%20SDC%202019&amp;body=https://hiteshK03.github.io/project/asme/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
@@ -953,32 +969,6 @@
         </a>
       </li>
     
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=ASME%20SDC%202019%20https://hiteshK03.github.io/project/asme/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hiteshK03.github.io/project/asme/&amp;title=ASME%20SDC%202019" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
   </ul>
 </div>
 
@@ -994,27 +984,156 @@
 
   
   
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://hiteshK03.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9d3b9dd7299e294b56d94d19fa4f7582_4823001_270x270_fill_q75_lanczos_center.jpg" alt="Hitesh Kandala"></a>
     
 
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://hiteshK03.github.io/">Hitesh Kandala</a></h5>
+      <h6 class="card-subtitle">Deep Learning Enthusiast</h6>
+      <p class="card-text">My research interests include CV, NLP and DL in general.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:khitesh2000@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/HiteshK03" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/hiteshK03" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/hitesh-kandala/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.kaggle.com/viani1603" target="_blank" rel="noopener">
+        <i class="fab fa-kaggle"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/sedrica/">Self Driving Car (SeDriCa)</a></li>
+      
+    </ul>
+  </div>
   
 
 

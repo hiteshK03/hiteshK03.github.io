@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | Hitesh Kandala</title>
+    <title>deep learning | Hitesh Kandala</title>
     <link>https://hiteshK03.github.io/tag/deep-learning/</link>
       <atom:link href="https://hiteshK03.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <description>deep learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 01 Apr 2020 19:52:21 +0530</lastBuildDate>
     <image>
       <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
-      <title>Deep Learning</title>
+      <title>deep learning</title>
       <link>https://hiteshK03.github.io/tag/deep-learning/</link>
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://hiteshK03.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://hiteshK03.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Self Driving Car (SeDriCa)</title>
+      <link>https://hiteshK03.github.io/project/sedrica/</link>
+      <pubDate>Wed, 01 Apr 2020 19:52:21 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/sedrica/</guid>
+      <description>&lt;p&gt;I was a part of &lt;a href=&#34;https://www.umiciitb.com/competitions/SeDriCa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Team SeDriCa&lt;/a&gt; consisting of around 20 members. We were one of the 11 finalists among 289 teams competing in the Mahindra RISE Driverless Car Challenge to build India&#39;s first self driving car targeting the level 5 autonomy and received a Mahindra E2O for development of the same.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&#34;sedrica.jpg&#34;&gt;&lt;img src=&#34;sedrica.jpg&#34;&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Our Mahindra E2O (SeDriCa)&lt;/figcaption&gt;
+&lt;/figure&gt;
+      &lt;p&gt;In my initial months, I was mainly understanding and implementing models in the computer vision subsytem, training Traffic Sign and Traffic Light classifier based on Resnet-50 and Resnet-152 architectures.&lt;/p&gt;
+      &lt;p&gt;I, then switched to handle Path Planning and Decision Making subsytem as CV modules were giving decent results. I went for on-ground testing of the vehicle (in the campus) and optimized the path of the vehicle accounting for the location and information of obstacles and traffic signals using Robot Operating System (ROS).&lt;/p&gt;
+      &lt;p&gt;One of my major contribution in this subsytem was implementing RRT* algorithm and integrating with other modules through ROS, to improve the speed and accuracy of finding path which was previously using Hybrid-A*.&lt;/p&gt;
+&lt;p&gt;Our self driving car intro and in news
+&lt;a href=&#34;https://www.youtube.com/watch?v=8lNKjX0-RKY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&#34;sedrica_team.jpg&#34;&gt;&lt;img src=&#34;sedrica_team.jpg&#34;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Our senior team members, last Christmas Eve&#39;19&lt;/figcaption&gt;
+&lt;/figure&gt;
 </description>
     </item>
     
