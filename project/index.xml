@@ -5,7 +5,7 @@
     <link>https://hiteshK03.github.io/project/</link>
       <atom:link href="https://hiteshK03.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 01 Apr 2020 19:52:21 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Fri, 07 Aug 2020 19:55:58 +0530</lastBuildDate>
     <image>
       <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,7 +13,45 @@
     </image>
     
     <item>
-      <title>Self Driving Car (SeDriCa)</title>
+      <title>Pneumonia Detection</title>
+      <link>https://hiteshK03.github.io/project/pneumonia/</link>
+      <pubDate>Fri, 07 Aug 2020 19:55:58 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/pneumonia/</guid>
+      <description>&lt;p&gt;In summer 2020, when the whole world was caught in a pandemic, I hopefully landed an internship at &lt;a href=&#34;https://www.endimension.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Endimension Technology Pvt Ltd.&lt;/a&gt;, a healthcare Aritificial Intelligence startup incubated at IIT Bombay. &lt;/p&gt;
+&lt;h3&gt;Problem Statement:&lt;/h3&gt;
+&lt;p&gt;To classify if a patient has pneumonia or not, and if he/she has then to detect regions of fluid in the chest X-rays.&lt;/p&gt;
+&lt;h3&gt;Data:&lt;/h3&gt;
+&lt;p&gt;The dataset consisted of images of chest X-rays of Indian patients in different formats such as Dicom, NifTI, jpg, etc.&lt;/p&gt;
+&lt;h3&gt;Overview of work done:&lt;/h3&gt;
+&lt;p&gt;I, first of all, had to build a pre-processing pipeline to feed images of different formats and different sizes.&lt;/p&gt;
+&lt;p&gt;I implemented a tensorflow model and experimented and optimized different object detection models and ensembled them to improve metrics.&lt;/p&gt;
+&lt;p&gt;In my one month work, I achieved sensitivity and specificity of more than 90% on the test dataset, consisting of over 3000 images.&lt;/p&gt;
+&lt;p&gt;Note : The actual deep learning architecture used is confidential as per company policy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intrusion Detection System</title>
+      <link>https://hiteshK03.github.io/project/ids/</link>
+      <pubDate>Thu, 04 Jun 2020 19:55:58 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/ids/</guid>
+      <description>&lt;p&gt;The project started at the time when everyone was shut in their homes, owing to the worldwide pandemic. This was done as a part of &lt;a href=&#34;https://www.wncc-iitb.org/soc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seasons of Code (SOC)&lt;/a&gt; organised by Web and Coding Club (WnCC), IIT Bombay. I co-ordinated in a team of 8, to build a real-time system that monitors network traffic for malicious activity. This was done with the help of raw network packet sniffer with a machine learning model detecting threats in the background.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&#34;IDS-OOB.png&#34;&gt;&lt;img src=&#34;IDS-OOB.png&#34;&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Block diagram of IDS.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=contribution&gt;My Contributions:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;My major work was related to supervising the first year students and building a machine learning model to detect threats. For this, I read many reasearch papers to find out which type of model performs best and which dataset to use.&lt;/li&gt;
+&lt;li&gt;We finally chose &lt;a href=&#34;https://www.unb.ca/cic/datasets/ids-2017.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CICIDS2017&lt;/a&gt; dataset as this was quite recent and relevant. I then applied Pearson Correlation and Chi-square test to this dataset to select best 15 out of 81 features.&lt;/li&gt;
+&lt;li&gt;I trained the chosen features with an ensemble model (consisting of classifiers such as Random-Forest, ExtraTrees, KNN, etc.) to achieve around 99% accuracy but the model was slow in making predictions and was practically not possible to use it.&lt;/li&gt;
+&lt;li&gt;Then I trained with each of the classifiers and found that KNN and ExtraTrees gave that accuracy to the ensemble model and the delay was mainly because of KNN.&lt;/li&gt;
+&lt;li&gt;Finally using ExtraTrees classifier, I achieved an accuracy of 99.7%, and with greatly reduced inference time.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Self Driving Car</title>
       <link>https://hiteshK03.github.io/project/sedrica/</link>
       <pubDate>Wed, 01 Apr 2020 19:52:21 +0530</pubDate>
       <guid>https://hiteshK03.github.io/project/sedrica/</guid>

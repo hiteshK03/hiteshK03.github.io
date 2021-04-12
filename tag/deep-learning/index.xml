@@ -5,7 +5,7 @@
     <link>https://hiteshK03.github.io/tag/deep-learning/</link>
       <atom:link href="https://hiteshK03.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>deep learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 01 Apr 2020 19:52:21 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Fri, 07 Aug 2020 19:55:58 +0530</lastBuildDate>
     <image>
       <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
       <title>deep learning</title>
@@ -13,7 +13,25 @@
     </image>
     
     <item>
-      <title>Self Driving Car (SeDriCa)</title>
+      <title>Pneumonia Detection</title>
+      <link>https://hiteshK03.github.io/project/pneumonia/</link>
+      <pubDate>Fri, 07 Aug 2020 19:55:58 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/project/pneumonia/</guid>
+      <description>&lt;p&gt;In summer 2020, when the whole world was caught in a pandemic, I hopefully landed an internship at &lt;a href=&#34;https://www.endimension.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Endimension Technology Pvt Ltd.&lt;/a&gt;, a healthcare Aritificial Intelligence startup incubated at IIT Bombay. &lt;/p&gt;
+&lt;h3&gt;Problem Statement:&lt;/h3&gt;
+&lt;p&gt;To classify if a patient has pneumonia or not, and if he/she has then to detect regions of fluid in the chest X-rays.&lt;/p&gt;
+&lt;h3&gt;Data:&lt;/h3&gt;
+&lt;p&gt;The dataset consisted of images of chest X-rays of Indian patients in different formats such as Dicom, NifTI, jpg, etc.&lt;/p&gt;
+&lt;h3&gt;Overview of work done:&lt;/h3&gt;
+&lt;p&gt;I, first of all, had to build a pre-processing pipeline to feed images of different formats and different sizes.&lt;/p&gt;
+&lt;p&gt;I implemented a tensorflow model and experimented and optimized different object detection models and ensembled them to improve metrics.&lt;/p&gt;
+&lt;p&gt;In my one month work, I achieved sensitivity and specificity of more than 90% on the test dataset, consisting of over 3000 images.&lt;/p&gt;
+&lt;p&gt;Note : The actual deep learning architecture used is confidential as per company policy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self Driving Car</title>
       <link>https://hiteshK03.github.io/project/sedrica/</link>
       <pubDate>Wed, 01 Apr 2020 19:52:21 +0530</pubDate>
       <guid>https://hiteshK03.github.io/project/sedrica/</guid>
