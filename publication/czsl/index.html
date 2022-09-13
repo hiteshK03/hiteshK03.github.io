@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+  <meta name="description" content="We tackle the problem of compositional zero-shot learning (CZSL) where the task is to recognize novel composite semantic concepts (like red-tomato, wet-dog) consisting of states (red, wet) and objects (tomato, dog) characterizing the visual primitives. CZSL is a complex task given the fact that similar states may appear to be visually distinct, thus hampering the recognition performance. Recently, graph convolution networks (GCN) have been used to learn a compatibility function among the visual, state, and object embeddings. However, we postulate that these techniques do not fully explore the compositional nature of the semantic space where states, objects, and pairs follow different neighborhood topologies. To this end, we introduce the concept of multi-stage graph embeddings where separate GCNs are used to initially model the pairwise interactions for the states, objects, and the composition label embeddings, respectively. A composite GCN subsequently combines this information to learn a discriminative and neighborhood preserving latent semantic space ensuring the strong coupling of a composition label with its respective state and object. Further, we use a vision transformer for projecting the images onto the same latent space where the cross-modal information can be compared. An adaptive margin based cross-entropy loss is introduced to train the model end-to-end while ensuring enriched discrimination among the categories. Results on the MIT-States, UT-Zappos and C-GQA datasets confirm the superiority of the proposed approach." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://hiteshK03.github.io/talk/example-talk/" />
+  <link rel="alternate" hreflang="en-us" href="https://hiteshK03.github.io/publication/czsl/" />
 
   
 
@@ -312,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://hiteshK03.github.io/talk/example-talk/" />
+  <link rel="canonical" href="https://hiteshK03.github.io/publication/czsl/" />
 
   
   
@@ -323,31 +323,35 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Hitesh Kandala" />
-  <meta property="og:url" content="https://hiteshK03.github.io/talk/example-talk/" />
-  <meta property="og:title" content="Example Talk | Hitesh Kandala" />
-  <meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://hiteshK03.github.io/talk/example-talk/featured.jpg" />
-    <meta property="twitter:image" content="https://hiteshK03.github.io/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://hiteshK03.github.io/publication/czsl/" />
+  <meta property="og:title" content="Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning | Hitesh Kandala" />
+  <meta property="og:description" content="We tackle the problem of compositional zero-shot learning (CZSL) where the task is to recognize novel composite semantic concepts (like red-tomato, wet-dog) consisting of states (red, wet) and objects (tomato, dog) characterizing the visual primitives. CZSL is a complex task given the fact that similar states may appear to be visually distinct, thus hampering the recognition performance. Recently, graph convolution networks (GCN) have been used to learn a compatibility function among the visual, state, and object embeddings. However, we postulate that these techniques do not fully explore the compositional nature of the semantic space where states, objects, and pairs follow different neighborhood topologies. To this end, we introduce the concept of multi-stage graph embeddings where separate GCNs are used to initially model the pairwise interactions for the states, objects, and the composition label embeddings, respectively. A composite GCN subsequently combines this information to learn a discriminative and neighborhood preserving latent semantic space ensuring the strong coupling of a composition label with its respective state and object. Further, we use a vision transformer for projecting the images onto the same latent space where the cross-modal information can be compared. An adaptive margin based cross-entropy loss is introduced to train the model end-to-end while ensuring enriched discrimination among the categories. Results on the MIT-States, UT-Zappos and C-GQA datasets confirm the superiority of the proposed approach." /><meta property="og:image" content="https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2017-01-01T00:00:00&#43;00:00"
+        content="2022-09-14T00:12:12&#43;05:30"
       />
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-09-14T00:12:12&#43;05:30">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -355,43 +359,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hiteshK03.github.io/talk/example-talk/"
+    "@id": "https://hiteshK03.github.io/publication/czsl/"
   },
-  "name": "Example Talk",
+  "headline": "Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning",
   
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
+  "datePublished": "2022-09-14T00:12:12+05:30",
+  "dateModified": "2022-09-14T00:12:12+05:30",
   
-  
-  "image": [
-    "https://hiteshK03.github.io/talk/example-talk/featured.jpg"
-  ],
-  
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Hitesh Kandala"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hitesh Kandala",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "We tackle the problem of compositional zero-shot learning (CZSL) where the task is to recognize novel composite semantic concepts (like red-tomato, wet-dog) consisting of states (red, wet) and objects (tomato, dog) characterizing the visual primitives. CZSL is a complex task given the fact that similar states may appear to be visually distinct, thus hampering the recognition performance. Recently, graph convolution networks (GCN) have been used to learn a compatibility function among the visual, state, and object embeddings. However, we postulate that these techniques do not fully explore the compositional nature of the semantic space where states, objects, and pairs follow different neighborhood topologies. To this end, we introduce the concept of multi-stage graph embeddings where separate GCNs are used to initially model the pairwise interactions for the states, objects, and the composition label embeddings, respectively. A composite GCN subsequently combines this information to learn a discriminative and neighborhood preserving latent semantic space ensuring the strong coupling of a composition label with its respective state and object. Further, we use a vision transformer for projecting the images onto the same latent space where the cross-modal information can be compared. An adaptive margin based cross-entropy loss is introduced to train the model end-to-end while ensuring enriched discrimination among the categories. Results on the MIT-States, UT-Zappos and C-GQA datasets confirm the superiority of the proposed approach."
 }
 </script>
 
@@ -401,15 +392,17 @@
 
   
 
+  
 
 
 
 
-  <title>Example Talk | Hitesh Kandala</title>
+
+  <title>Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning | Hitesh Kandala</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="2ec6423441997327c95ce34db1bd17f9" >
 
   
   
@@ -774,7 +767,16 @@
   </div>
 
   <div class="page-body">
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -789,33 +791,46 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Example Talk</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Hitesh Kandala</span>, <span >
+      Ruchika Chavhan</span>, <span >
+      Ushasi Chaudhuri</span>, <span >
+      Biplab Banerjee</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2022
+  </span>
   
 
   
@@ -834,7 +849,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -851,27 +866,30 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
     
   
 
 
 
+<a class="btn btn-outline-primary btn-page-header" href="/SSRN-id4161333.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/czsl/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -888,23 +906,16 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
+  <a class="btn btn-outline-primary btn-page-header" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4161333" target="_blank" rel="noopener">
+    
+    HTML
   </a>
 
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs"><strong>Unsplash</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -912,40 +923,11 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We tackle the problem of compositional zero-shot learning (CZSL) where the task is to recognize novel composite semantic concepts (like red-tomato, wet-dog) consisting of states (red, wet) and objects (tomato, dog) characterizing the visual primitives. CZSL is a complex task given the fact that similar states may appear to be visually distinct, thus hampering the recognition performance. Recently, graph convolution networks (GCN) have been used to learn a compatibility function among the visual, state, and object embeddings. However, we postulate that these techniques do not fully explore the compositional nature of the semantic space where states, objects, and pairs follow different neighborhood topologies. To this end, we introduce the concept of multi-stage graph embeddings where separate GCNs are used to initially model the pairwise interactions for the states, objects, and the composition label embeddings, respectively. A composite GCN subsequently combines this information to learn a discriminative and neighborhood preserving latent semantic space ensuring the strong coupling of a composition label with its respective state and object. Further, we use a vision transformer for projecting the images onto the same latent space where the cross-modal information can be compared. An adaptive margin based cross-entropy loss is introduced to train the model end-to-end while ensuring enriched discrimination among the categories. Results on the MIT-States, UT-Zappos and C-GQA datasets confirm the superiority of the proposed approach.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     
@@ -953,12 +935,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Available at SSRN 4161333</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -968,21 +946,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
-
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -1004,7 +968,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://hiteshK03.github.io/talk/example-talk/&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://hiteshK03.github.io/publication/czsl/&amp;text=Multi-Stage%20Semantic%20Graph%20Embeddings%20for%20Compositional%20Zero-Shot%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1017,7 +981,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://hiteshK03.github.io/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Multi-Stage%20Semantic%20Graph%20Embeddings%20for%20Compositional%20Zero-Shot%20Learning&amp;body=https://hiteshK03.github.io/publication/czsl/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1030,7 +994,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://hiteshK03.github.io/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://hiteshK03.github.io/publication/czsl/&amp;title=Multi-Stage%20Semantic%20Graph%20Embeddings%20for%20Compositional%20Zero-Shot%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1050,6 +1014,7 @@
 
   
   
+    
 
 
 
@@ -1157,6 +1122,25 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1172,6 +1156,15 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/exploring-transformer-and-multi-label-classification-for-remote-sensing-image-captioning/">Exploring Transformer and Multi Label Classification for Remote Sensing Image Captioning</a></li>
+      
+    </ul>
+  </div>
   
 
 

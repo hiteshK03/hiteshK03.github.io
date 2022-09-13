@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Hitesh Kandala</title>
+    <link>https://hiteshK03.github.io/publication-type/0/</link>
+      <atom:link href="https://hiteshK03.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 14 Sep 2022 00:12:12 +0530</lastBuildDate>
+    <image>
+      <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
+      <title>0</title>
+      <link>https://hiteshK03.github.io/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning</title>
+      <link>https://hiteshK03.github.io/publication/czsl/</link>
+      <pubDate>Wed, 14 Sep 2022 00:12:12 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/publication/czsl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

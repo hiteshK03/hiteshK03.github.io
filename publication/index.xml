@@ -5,7 +5,7 @@
     <link>https://hiteshK03.github.io/publication/</link>
       <atom:link href="https://hiteshK03.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Hitesh Kandala</copyright><lastBuildDate>Wed, 14 Sep 2022 00:12:12 +0530</lastBuildDate>
     <image>
       <url>https://hiteshK03.github.io/media/icon_huebd06e6b0d43802f6ac203b68475d8c7_43103_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,22 +13,19 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://hiteshK03.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://hiteshK03.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Multi-Stage Semantic Graph Embeddings for Compositional Zero-Shot Learning</title>
+      <link>https://hiteshK03.github.io/publication/czsl/</link>
+      <pubDate>Wed, 14 Sep 2022 00:12:12 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/publication/czsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Transformer and Multi Label Classification for Remote Sensing Image Captioning</title>
+      <link>https://hiteshK03.github.io/publication/exploring-transformer-and-multi-label-classification-for-remote-sensing-image-captioning/</link>
+      <pubDate>Thu, 11 Aug 2022 20:46:10 +0530</pubDate>
+      <guid>https://hiteshK03.github.io/publication/exploring-transformer-and-multi-label-classification-for-remote-sensing-image-captioning/</guid>
+      <description></description>
     </item>
     
   </channel>
