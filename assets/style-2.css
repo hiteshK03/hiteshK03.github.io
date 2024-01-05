@@ -87,6 +87,39 @@ a:hover {
 
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    margin-right: auto;
+    /* grid-template-columns: repeat(4, 1fr); 4 columns for 4 methods */
+    gap: 1px; /* Adjust the gap between grid items as needed */
+  }
+  
+  .grid-item {
+    text-align: left; /* Center the content */
+  }
+  
+  .grid-item img {
+    width: 60%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    /* margin: 0 100px; */
+  }
+
+  .grid-data {
+    text-align: left; /* Center the content */
+  }
+  
+  .grid-data img {
+    width: 60%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin: 0 -140px;
+    /* height: auto; Maintain aspect ratio */
+  }
+
+  .image-label {
+    margin-top: 5px; /* Space between image and label */
+  }
+
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
